@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
 
     gap: 24px;
 
@@ -20,15 +20,17 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 24px;
     }
 
     .stack{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
         gap: 18px;
-        max-width: 24px;
+        max-width: fit-content;
+        align-items: center;
     }
 
     @media (min-width: 768px) {
@@ -38,6 +40,15 @@
             font-size: 20px;
             line-height: 28px;
             text-align: start;
+        }
+
+        .tech {
+            align-items: flex-start;
+        }
+
+        .stack {
+            align-items: flex-start;
+            gap: 0.75rem;
         }
     }
 }

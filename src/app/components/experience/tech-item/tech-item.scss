@@ -1,15 +1,12 @@
 .tech-item {
   display: flex;
-  max-width: fit-content;
   border-radius: 18px;
   padding: 8px;
-  flex-direction: row;
   background-color: #228B22;
-  color: white;
 
   .item {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;  
   }
 
   .img {

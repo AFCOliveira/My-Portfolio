@@ -12,6 +12,10 @@ export const getTechStackList = () => [
     imageUrl: "/tech-icons/sass-icon.svg",
   },
   {
+    name: "Javascript",
+    imageUrl: "/tech-icons/javascript-icon.svg",
+  },
+  {
     name: "Typescript",
     imageUrl: "/tech-icons/typescript-icon.svg",
   },
@@ -20,8 +24,16 @@ export const getTechStackList = () => [
     imageUrl: "/tech-icons/react-icon.svg",
   },
   {
+    name: "Next",
+    imageUrl: "/tech-icons/next-icon.svg",
+  },
+  {
     name: "NodeJS",
     imageUrl: "/tech-icons/node-icon.svg",
+  },
+  {
+    name: "NestJS",
+    imageUrl: "/tech-icons/nestjs-icon.svg",
   },
   {
     name: "Jest",
@@ -34,5 +46,29 @@ export const getTechStackList = () => [
   {
     name: "Styled Components",
     imageUrl: "/tech-icons/styled-components-icon.svg",
+  },
+  {
+    name: "Angular",
+    imageUrl: "/tech-icons/angular-icon.svg",
+  },
+  {
+    name: "Github",
+    imageUrl: "/tech-icons/github-icon.svg",
+  },
+  {
+    name: "Java",
+    imageUrl: "/tech-icons/java-icon.svg",
+  },
+  {
+    name: "MySQL",
+    imageUrl: "/tech-icons/mysql-icon.svg",
+  },
+  {
+    name: "MongoDB",
+    imageUrl: "/tech-icons/mongodb-icon.svg",
+  },
+  {
+    name: "Rest",
+    imageUrl: "/tech-icons/rest-icon.svg",
   },
 ];
